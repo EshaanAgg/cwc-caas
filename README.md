@@ -1,5 +1,3 @@
-## Content
+# CaaS - Curl as a Service
 
-The products team has decided to release a new product "CaaS" (Curl as a Service) and they believe that the same would generate drastic revenues for your team! Imagine being able to run CURL commands right from your phone!
-
-You realise this is absurd, and after browsing the source code you realise this project is not really a good idea with the current implementation. You tell the same to your manager, but he isn't ready to listen. Maybe if you sent him his login password, he would listen?
+This is a simple remote code execution challenge that was created as a part of Code with Cisco '23 by team Cis-goo for the hackathon. The challenge exploits the use of the `file` protocol with curl and the use of `localhost` as an URL to steal the admin credentials. 
